@@ -1,0 +1,21 @@
+Installing Git on Mac
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew install git
+
+Basic Git commands
+
+Clone the project from master
+git clone git@github.com:legobitna/Startupwebsite.git foldername
+
+Make the new branch
+git checkout -b branchname
+
+Move to another branch
+git checkout branchname
+
+Update the local machine code from master
+git pull origin mater
+
+Push to the branch
+git push origin branchname
